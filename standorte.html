@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Standorte - Elim Kirche Lüneburg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="images/logo.svg" alt="Elim Kirche Lüneburg"></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li class="nav-dropdown">
+          <a class="nav-dropdown-toggle">
+            Deine Kirche
+            <svg class="nav-dropdown-caret" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true">
+              <path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="deine-kirche/vision.html">Vision</a></li>
+            <li><a href="deine-kirche/gottesdienst.html">Gottesdienst</a></li>
+            <li><a href="deine-kirche/veranstaltungen.html">Veranstaltungen</a></li>
+          </ul>
+        </li>
+        <li><a href="standorte.html" class="active">Standorte</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero hero--page">
+    <div class="hero-inner">
+      <h1>Standorte</h1>
+      <p>Das Elim Netzwerk ist eine Kirche in drei Städten.</p>
+    </div>
+  </section>
+
+  <!-- LOCATIONS GRID -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="text-center" style="margin-bottom:3rem;">
+        <span class="section-label">Unsere Gemeinden</span>
+        <h2 class="section-title">Hier sind wir zu Hause</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="grid-3">
+
+        <!-- Geesthacht -->
+        <div class="card text-center">
+          <div class="card-icon" style="margin-bottom:1.2rem;">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Geesthacht</h3>
+          <p style="font-size:0.92rem; line-height:1.7; margin-top:0.5rem;">
+            Barmbeker Ring 15<br>
+            21502 Geesthacht
+          </p>
+          <div class="card-links">
+            <a href="https://www.elimgeesthacht.de/" target="_blank" rel="noopener" class="card-arrow">
+              Website
+              <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+            <a href="https://maps.app.goo.gl/AS3DGWf8t1wpV3SU9" target="_blank" rel="noopener" class="card-arrow">
+              Google Maps
+              <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Lüneburg -->
+        <div class="card card--static text-center">
+          <div class="card-icon" style="margin-bottom:1.2rem;">
+            <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 3.46 4.5 4.5C13.09 6.46 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          </div>
+          <h3>Lüneburg</h3>
+          <p style="font-size:0.92rem; line-height:1.7; margin-top:0.5rem;">
+            21337 Lüneburg
+            <br><br>
+            <span style="font-size:0.88rem; font-weight:600; color:#555;">Wir gründen neu</span>
+          </p>
+        </div>
+
+        <!-- Winsen -->
+        <div class="card text-center">
+          <div class="card-icon" style="margin-bottom:1.2rem;">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Winsen</h3>
+          <p style="font-size:0.92rem; line-height:1.7; margin-top:0.5rem;">
+            Hamburger Straße 68<br>
+            21423 Winsen (Luhe)
+          </p>
+          <div class="card-links">
+            <a href="https://www.elimwinsen.de" target="_blank" rel="noopener" class="card-arrow">
+              Website
+              <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+            <a href="https://maps.app.goo.gl/yyCimB7fk1HR7vto7" target="_blank" rel="noopener" class="card-arrow">
+              Google Maps
+              <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo"><img src="images/logo.svg" alt="Elim Kirche Lüneburg"></div>
+      </div>
+      <nav class="footer-links">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="kontakt.html#spenden">Spenden</a>
+      </nav>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Elim Kirche Lüneburg</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/elim.lueneburg/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const links  = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('is-open'));
+  </script>
+
+</body>
+</html>

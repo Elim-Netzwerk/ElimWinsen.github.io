@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elim Kirche Lüneburg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="images/logo.svg" alt="Elim Kirche Lüneburg"></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li class="nav-dropdown">
+          <a class="nav-dropdown-toggle">
+            Deine Kirche
+            <svg class="nav-dropdown-caret" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true">
+              <path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="deine-kirche/vision.html">Vision</a></li>
+            <li><a href="deine-kirche/gottesdienst.html">Gottesdienst</a></li>
+            <li><a href="deine-kirche/veranstaltungen.html">Veranstaltungen</a></li>
+          </ul>
+        </li>
+        <li><a href="standorte.html">Standorte</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Gott begegnen,<br>Veränderung erleben</h1>
+      <p>Kirche ist mehr als ein Gebäude; sie ist der Ort, an dem Gottes unbegreifliche Liebe durch Jesus Christus erfahrbar wird.</p>
+      <a href="deine-kirche/vision.html" class="btn btn-primary">Mehr erfahren</a>
+    </div>
+  </section>
+
+  <!-- SECTION 1: Vision / 3 Pillars -->
+  <section class="section">
+    <div class="section-inner text-center">
+      <span class="section-label">Unsere Kirche</span>
+      <h2 class="section-title" style="max-width:720px; margin-left:auto; margin-right:auto;">
+        Aus Liebe zu unserer Stadt träumen wir von einem Ort, an dem Jesus im Zentrum steht
+      </h2>
+      <div class="divider"></div>
+
+      <div class="grid-3" style="margin-top:3rem;">
+
+        <!-- Card: Gemeinschaft -->
+        <a href="deine-kirche/veranstaltungen.html" class="card-link">
+          <div class="card text-center">
+            <div class="card-icon" style="margin:0 auto 1.2rem;">
+              <svg viewBox="0 0 24 24" style="stroke-linejoin:miter; stroke-linecap:butt; overflow:visible;"><path d="M3 22V8L0 10.25L12 1.5L24 10.25L21 8V22Z"/><path d="M9 22V12H15V22Z"/></svg>
+            </div>
+            <h3>Gemeinschaft</h3>
+            <p>Echte Verbindung zwischen Menschen, jenseits oberflächlicher Kontakte. Wir leben Kirche als Familie.</p>
+          </div>
+        </a>
+
+        <!-- Card: Glauben -->
+        <a href="deine-kirche/vision.html" class="card-link">
+          <div class="card text-center">
+            <div class="card-icon" style="margin:0 auto 1.2rem;">
+              <svg viewBox="0 0 24 24" style="stroke-linejoin:miter;"><path d="M14 1h-4v6H4v4h6v12h4v-12h6V7h-6z"/></svg>
+            </div>
+            <h3>Glauben</h3>
+            <p>Wir glauben an die transformierende Kraft des Evangeliums. Gott begegnen bedeutet, neu werden.</p>
+          </div>
+        </a>
+
+        <!-- Card: Veränderung -->
+        <a href="deine-kirche/gottesdienst.html" class="card-link">
+          <div class="card text-center">
+            <div class="card-icon" style="margin:0 auto 1.2rem;">
+              <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41 3.46 4.5 4.5C13.09 6.46 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+            </div>
+            <h3>Veränderung</h3>
+            <p>Was innen beginnt, wirkt nach außen. Wir möchten Lüneburg und unsere Umgebung mit Gottes Liebe prägen.</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: Dinnerpartys -->
+  <section class="section section--gray">
+    <div class="section-inner">
+      <div class="two-col" style="align-items:center;">
+        <div>
+          <span class="section-label">Wie wir Kirche leben</span>
+          <h2 class="section-title">Dinnerpartys: Kirche im Wohnzimmer</h2>
+          <div class="divider divider--left"></div>
+          <p style="margin-bottom:2rem;">
+            Wir treffen uns regelmäßig in unseren Häusern zu Dinnerpartys, um Menschen zu versammeln. Wir essen gemeinsam, leben Gemeinschaft, vertiefen Beziehungen. Diese Abende sind offen für alle, egal ob du bereits glaubst oder Gott einfach kennenlernen möchtest.
+          </p>
+          <a href="kontakt.html" class="btn btn-primary">Kontakt aufnehmen</a>
+        </div>
+        <div>
+          <div class="card dinner-card">
+            <div class="dinner-card-inner">
+              <h3 style="color:#fff; font-size:2rem; margin-bottom:0.5rem;">Nächste Dinnerparty</h3>
+              <p style="color:#fff; font-size:1.1rem; font-weight:500; margin-bottom:0.75rem;">24. Juni 2026, 19:30 Uhr</p>
+              <div class="dinner-card-bottom">
+                <p style="color:#e6e6e6; margin-bottom:1rem;">Melde dich einfach bei uns. Wir freuen uns, dich persönlich einzuladen und dir alle Details zu senden.</p>
+                <a href="https://elimkirche.church.tools/publicgroup/1171" target="_blank" rel="noopener" class="btn btn-accent" style="font-size:0.9rem;">Anmelden</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo"><img src="images/logo.svg" alt="Elim Kirche Lüneburg"></div>
+      </div>
+      <nav class="footer-links">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="kontakt.html#spenden">Spenden</a>
+      </nav>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Elim Kirche Lüneburg</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/elim.lueneburg/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const links  = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('is-open'));
+  </script>
+
+</body>
+</html>

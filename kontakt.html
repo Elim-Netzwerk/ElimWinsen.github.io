@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt - Elim Kirche Lüneburg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="images/logo.svg" alt="Elim Kirche Lüneburg"></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li class="nav-dropdown">
+          <a class="nav-dropdown-toggle">
+            Deine Kirche
+            <svg class="nav-dropdown-caret" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true">
+              <path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="deine-kirche/vision.html">Vision</a></li>
+            <li><a href="deine-kirche/gottesdienst.html">Gottesdienst</a></li>
+            <li><a href="deine-kirche/veranstaltungen.html">Veranstaltungen</a></li>
+          </ul>
+        </li>
+        <li><a href="standorte.html">Standorte</a></li>
+        <li><a href="kontakt.html" class="active">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero hero--page">
+    <div class="hero-inner">
+      <h1>Kontakt</h1>
+      <p>Wir freuen uns darauf, von dir zu hören.</p>
+    </div>
+  </section>
+
+  <!-- MAIN CONTACT + DONATIONS -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="two-col">
+
+        <!-- LEFT: Kontakt -->
+        <div>
+          <span class="section-label">Kontakt</span>
+          <h2 class="section-title">Ins Gespräch kommen</h2>
+          <div class="divider divider--left"></div>
+
+          <div class="info-block">
+            <div class="info-label">E-Mail</div>
+            <div class="info-value">
+              <a href="mailto:info@elimlueneburg.de" style="color:#e05c1a;">info@elimlueneburg.de</a>
+            </div>
+            <div class="info-sub">Wir antworten so schnell wie möglich.</div>
+          </div>
+
+          <a href="mailto:info@elimlueneburg.de" class="btn btn-primary">Mail schreiben</a>
+        </div>
+
+        <!-- RIGHT: Spenden -->
+        <div id="spenden">
+          <span class="section-label">Spenden</span>
+          <h2 class="section-title">Gemeinsam wachsen</h2>
+          <div class="divider divider--left"></div>
+
+          <p style="margin-bottom:1.5rem; color:#444;">
+            Wir finanzieren uns ausschließlich durch freiwillige Spenden. Eine Mitgliedsgebühr oder Kirchensteuer erheben wir nicht.
+          </p>
+
+          <div class="bank-detail">
+            <strong>Freie Christengemeinde Lüneburg e.V.</strong><br>
+            <strong>IBAN:</strong> DE45 2405 0110 0066 1757 95<br>
+            <strong>BIC:</strong> NOLADE21LBG<br>
+            <strong>Bank:</strong> Sparkasse Lüneburg
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION (gray) -->
+  <section class="section section--gray">
+    <div class="section-inner">
+      <div class="text-center" style="margin-bottom:3rem;">
+        <span class="section-label">Häufige Fragen</span>
+        <h2 class="section-title">Was dich bewegt</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="grid-2">
+
+        <div class="card card--static">
+          <h3 style="margin-bottom:0.6rem;">Was ist eine Dinnerparty?</h3>
+          <p style="font-size:0.92rem;">Ein zwangloser Abend, bei dem wir gemeinsam essen, uns austauschen und über den Glauben reden.</p>
+        </div>
+
+        <div class="card card--static">
+          <h3 style="margin-bottom:0.6rem;">Wo finden eure Treffen statt?</h3>
+          <p style="font-size:0.92rem;">Wir treffen uns in Wohnungen und Häusern in Lüneburg. Genaue Adressen teilen wir persönlich mit. Meld dich einfach.</p>
+        </div>
+
+        <div class="card card--static">
+          <h3 style="margin-bottom:0.6rem;">Muss ich Christ sein, um zu kommen?</h3>
+          <p style="font-size:0.92rem;">Nein. Wir freuen uns über jeden, egal ob Suchender, Zweifler oder langjähriger Gläubiger. Du bist willkommen, wie du bist.</p>
+        </div>
+
+        <div class="card card--static">
+          <h3 style="margin-bottom:0.6rem;">Gibt es Gottesdienste?</h3>
+          <p style="font-size:0.92rem;">Derzeit nicht bei Elim Kirche Lüneburg. Wir laden dich herzlich ein, einen unserer anderen Gottesdienste zu besuchen.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo"><img src="images/logo.svg" alt="Elim Kirche Lüneburg"></div>
+      </div>
+      <nav class="footer-links">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="kontakt.html#spenden">Spenden</a>
+      </nav>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Elim Kirche Lüneburg</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/elim.lueneburg/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const links  = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('is-open'));
+  </script>
+
+</body>
+</html>

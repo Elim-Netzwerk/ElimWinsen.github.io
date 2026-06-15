@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kleingruppen - Elim Kirche Lüneburg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo"><img src="../images/logo.svg" alt="Elim Kirche Lüneburg"></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li class="nav-dropdown is-current">
+          <a class="nav-dropdown-toggle active">
+            Deine Kirche
+            <svg class="nav-dropdown-caret" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true">
+              <path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <ul class="nav-dropdown-menu">
+            <li><a href="vision.html">Vision</a></li>
+            <li><a href="gottesdienst.html">Gottesdienst</a></li>
+            <li><a href="veranstaltungen.html">Veranstaltungen</a></li>
+          </ul>
+        </li>
+        <li><a href="../standorte.html">Standorte</a></li>
+        <li><a href="../kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero hero--page">
+    <div class="hero-inner">
+      <h1>Kleingruppen</h1>
+      <p>Wöchentlich treffen sich Kleingruppen der Elim Kirche mit verschiedenen Schwerpunkten in Lüneburg und Umgebung.</p>
+    </div>
+  </section>
+
+  <!-- GROUPS GRID -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="text-center" style="margin-bottom:3rem;">
+        <span class="section-label">Unsere Gruppen</span>
+        <h2 class="section-title">Finde deine Gruppe</h2>
+        <div class="divider"></div>
+        <p class="section-subtitle section-subtitle--center">
+          In unseren Kleingruppen geht es um Gemeinschaft, Glauben und Wachstum. Jede Gruppe hat ihren eigenen Charakter. Schau, welche zu dir passt.
+        </p>
+      </div>
+
+      <div class="grid-3">
+
+        <!-- Dinnerparty -->
+        <div class="group-card card--static">
+          <h4>Dinnerparty</h4>
+          <p class="group-desc">Wir treffen uns in unseren Häusern: gemeinsam essen, Beziehungen vertiefen und Gott begegnen.</p>
+          <span class="tag tag-orange">Lüneburg</span>
+        </div>
+
+        <!-- Frauentreff -->
+        <div class="group-card card--static">
+          <h4>Frauentreff</h4>
+          <p class="group-desc">Ein Ort für Frauen: Austausch, Ermutigung und Gemeinschaft.</p>
+          <span class="tag tag-orange">Lüneburg</span>
+        </div>
+
+        <!-- Community Sunday -->
+        <div class="group-card card--static">
+          <h4>Community Sunday</h4>
+          <p class="group-desc">Sonntagstreffen in lockerer Atmosphäre: gemeinsam glauben, beten und Gemeinschaft erleben.</p>
+          <span class="tag tag-orange">Lüneburg</span>
+        </div>
+
+      </div>
+
+      <div class="text-center" style="margin-top:3.5rem;">
+        <p style="margin-bottom:1.5rem; color:#555;">Möchtest du einer Gruppe beitreten oder hast du Fragen? Melde dich gerne bei uns.</p>
+        <a href="../kontakt.html" class="btn btn-primary">Kontakt aufnehmen</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo"><img src="../images/logo.svg" alt="Elim Kirche Lüneburg"></div>
+      </div>
+      <nav class="footer-links">
+        <a href="../impressum.html">Impressum</a>
+        <a href="../datenschutz.html">Datenschutz</a>
+        <a href="../kontakt.html">Kontakt</a>
+        <a href="../kontakt.html#spenden">Spenden</a>
+      </nav>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Elim Kirche Lüneburg</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/elim.lueneburg/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const links  = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => links.classList.toggle('is-open'));
+  </script>
+
+</body>
+</html>
